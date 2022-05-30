@@ -19,7 +19,7 @@ if($conn->connect_error){
         if(mysqli_num_rows($result) == 1){ 
             $stmt = $conn->prepare('insert into email(email)value(?)');
             $stmt->bind_param("s",$email);
-            header('location: ../php/homepage.php');
+            header('location: homepage.php');
         }else{
             echo '<h3 style="text-align: center; margin-top: 20px;">Email : '.$email.'<br> Password : '.$password.'<br>  Email Already Exists</h3>
 	

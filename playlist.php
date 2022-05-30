@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
     <script type="text/javascript">
         function preventBack() {
             window.history.forward(); 
@@ -24,11 +24,11 @@
         <header>
          <div class="main">
             <a href="homepage.php">
-            <img src="../file.png" class="img-left mt-2" style=" margin: 5px; padding: 5px auto; width: 5%; "></a>
+            <img src="file.png" class="img-left mt-2" style=" margin: 5px; padding: 5px auto; width: 5%; "></a>
             <ul>
-            <li><a  href="../php/homepage.php">Home</a></li>
+            <li><a  href="homepage.php">Home</a></li>
             <li><a href="#">Playlist</a></li>
-            <li><a href="../php/logout.php">Logout</a></li>
+            <li><a href="logout.php">Logout</a></li>
         </ul>
     </div>
             </header>

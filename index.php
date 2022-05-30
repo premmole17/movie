@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="loginbox">
-	<form action="php/valid.php" method="post" >
+	<form action="valid.php" method="post" >
 	  <div class="imgcontainer">
 	    <img src="file.png" alt="Avatar" class="avatar">
 	  </div>
@@ -46,11 +46,3 @@
 	
 </body>
 </html>
-
-<?php 
-session_start();
-$_SESSION["email"] = '';
-$_SESSION["password"] = "password";
-
-
- ?>

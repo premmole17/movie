@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
     <script type="text/javascript">
     window.history.forward();
     function noBack()
@@ -21,7 +21,7 @@
         <header>
          <div class="main">
             <a href="homepage.php">
-            <img src="../file.png" class="img-left mt-2" style=" margin: 5px; padding: 5px auto; width: 5%; " alt="Logo"></a>
+            <img src="file.png" class="img-left mt-2" style=" margin: 5px; padding: 5px auto; width: 5%; " alt="Logo"></a>
             <ul>
             <li><a  href="#">Home</a></li>
             <li><a href="playlist.php">Playlist</a></li>
